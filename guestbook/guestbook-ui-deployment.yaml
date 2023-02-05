@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   name: guestbook-ui
   labels:
-    testLabel: v1
+    testLabel: v2
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 2
   selector:
     matchLabels:
